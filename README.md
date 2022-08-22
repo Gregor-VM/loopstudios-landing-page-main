@@ -19,12 +19,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot Desktop Design](./captures/screencapture.png)
+![Screenshot Desktop Design](./captures/desktop.png)
+![Screenshot Mobile Design](./captures/mobile.png)
+![Screenshot Mobile Menu Design](./captures/menu.jpg)
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/...)
-- Live Site URL: [Live Site](https://gregor-vm.github.io/loopstudios-landing-page-main)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/loopstudios-landing-page-main-cz7oANpC3P)
+- Live Site URL: [Live Site](https://gregor-vm.github.io/loopstudios-landing-page-main/)
 
 
 ### Built with

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="./styles.css" />
+  
+  <!--Custom scripts-->
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <div class="menu" id="menu">
+    <div class="menu__top">
+      <img class="menu__top-logo" src="images/logo.svg" alt="loopstudios" />
+      <img id="menuClose" class="menu__top-close-icon" src="images/icon-close.svg" alt="close-icon" />
+    </div>
+
+    <ul class="menu__list" id="menuList"></ul>
+
+  </div>
+
+  <header class="header">
+    <nav class="header__nav-bar">
+      <img class="header__nav-bar-logo" src="images/logo.svg" alt="loopstudios" />
+
+      <div class="header__nav-bar-menu">
+        <img id="menuButton" class="header__nav-bar-menu-open-icon" src="images/icon-menu.svg" alt="menu-icon" />
+        <ul id="navBarList" class="header__nav-bar-menu-list" class="menu-options">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="header__text header__text-block title large-title border white">Immersive experiences that deliver</h1>
+  </header>
+
+  <main class="main">
+      <picture class="main__picture">
+        <source srcset="./images/desktop/image-interactive.jpg" media="(min-width: 800px)" />
+        <img class="main__picture-img" src="./images/mobile/image-interactive.jpg" alt="interactive" />
+      </picture>
+      <div class="main___text-container text-alignment">
+        <h1 class="main__text-container-title title">The leader in interactive VR</h1>
+        <p class="muted">Founded in 2011, Loopstudios has been producing world-class virtual reality 
+          projects for some of the best companies around the globe. Our award-winning 
+          creations have transformed businesses through digital experiences that bind 
+          to their brand.</p>
+      </div>
+
+  </main>
+
+  <section class="creations">
+      <h1 class="creations__title title text-alignment">Our creations</h1>
+      <button class="creations__button title">See all</button>
+      <div class="creations__image deep-earth"><p>deep earth</p></div>
+      <div class="creations__image night-arcade"><p>night arcade</p></div>
+      <div class="creations__image soccer-team"><p>soccer team vr</p></div>
+      <div class="creations__image grid"><p>the grid</p></div>
+      <div class="creations__image from-above"><p>from up above vr</p></div>
+      <div class="creations__image pocket-borealis"><p>pocket borealis</p></div>
+      <div class="creations__image curiosity"><p>the curiosity</p></div>
+      <div class="creations__image fisheye"><p>make it fisheye</p></div>
+
+      <!--
+      <img src="./images/mobile/image-deep-earth.jpg" srcset="./images/desktop/image-deep-earth.jpg 800w" />
+      <img src="./images/mobile/image-night-arcade.jpg" srcset="./images/desktop/image-night-arcade.jpg 800w" />
+      <img src="./images/mobile/image-soccer-team.jpg" srcset="./images/desktop/image-soccer-team.jpg 800w" />
+      <img src="./images/mobile/image-grid.jpg" srcset="./images/desktop/image-grid.jpg 800w" />
+      <img src="./images/mobile/image-from-above.jpg" srcset="./images/desktop/image-from-above.jpg 800w" />
+      <img src="./images/mobile/image-pocket-borealis.jpg" srcset="./images/desktop/image-pocket-borealis.jpg 800w" />
+      <img src="./images/mobile/image-curiosity.jpg" srcset="./images/desktop/image-curiosity.jpg 800w" />
+      <img src="./images/mobile/image-fisheye.jpg" srcset="./images/desktop/image-fisheye.jpg 800w" />
+        -->
+
+  </section>
+
+  <footer class="footer">
+    <img class="footer__logo" src="images/logo.svg" alt="loopstudios" />
+    <ul class="footer__list">
+      <li><a class="footer__list-item" href="#"><img src="./images/icon-facebook.svg" /></a></li>
+      <li><a class="footer__list-item" href="#"><img src="./images/icon-twitter.svg" /></a></li>
+      <li><a class="footer__list-item" href="#"><img src="./images/icon-pinterest.svg" /></a></li>
+      <li><a class="footer__list-item" href="#"><img src="./images/icon-instagram.svg" /></a></li>
+    </ul>
+
+    <ul id="footerMenuOptions" class="footer__menu-options"></ul>
+    <p class="footer__copywrite-text muted">© 2021 Loopstudios. All rights reserved.</p>
+
+  </footer>
+
+</body>
+</html>
